@@ -1,43 +1,113 @@
+@font-face{
+    font-family: 'win95';
+    src: url(../resource/font/w95fa.woff2) format('woff2');
+    
+}
+
 body {
-    margin: 60px auto;
-    width: 70%;
+    margin: 5vh auto;
+    background-color: #008080;
+    cursor: url('../resource/cursor/HotlineBlackNormalSelect.cur'),default;
+    text-align: center;
 }
-nav ul, footer ul {
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
-    list-style: none;
-    font-weight: bold;
+
+.container {
+    margin: auto;
+    text-align: center;
 }
-nav ul li, footer ul li {
-    display: inline;
-    margin-right: 20px;
+.profileImage img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: 20px auto;
 }
-a {
-    text-decoration: none;
-    color: #999;
+
+.blurb div{
+    text-align: center;
 }
-a:hover {
-    text-decoration: underline;
-}
-h1 {
+
+h1{
     font-size: 3em;
-    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    font-family: 'win95';
+    color: rgb(255, 255, 255);
 }
-p {
+p{
     font-size: 1.5em;
     line-height: 1.4em;
-    color: #333;
+    color: rgb(255, 255, 255);
 }
+
+.linkSelector{
+    margin: auto;
+    text-align: center;
+    position: relative;
+}
+
+.linkSelector ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+.linkSelector a{
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    cursor: url('../resource/cursor/HotlineBlackLinkSelect.cur'),pointer;
+}
+
+.linkSelector img {
+    display: block;
+    width: auto;
+    height: auto;
+    max-width: 50vw;
+    max-height: 50vh;
+    margin: auto;
+}
+
+.github .gitImageHov {
+    display: none;
+}
+
+.github:hover .gitImageHov {
+    display: block;
+}
+
+.github:hover .gitImage {
+    display: none;
+}
+
+.disco .discoImageHov{
+    display: none;
+}
+
+.disco:hover .discoImageHov{
+    display: block;
+}
+
+.disco:hover .discoImage{
+    display: none;
+}
+
+.email .emailImageHov {
+    display: none;
+}
+
+.email:hover .emailImageHov {
+    display: block;
+}
+
+.email:hover .emailImage {
+    display: none;
+}
+
+
+
+
 footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: .8em;
+    font-size: 10px;
+    margin: auto;
 }
 
-ul.posts { 
-    margin: 20px auto 40px; 
-    font-size: 1.5em;
-}
 
-ul.posts li {
-    list-style: none;
-}
