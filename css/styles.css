@@ -105,7 +105,7 @@ p{
 }
 
 .taskbar{
-    display: flex;
+    display: fixed;
     position: absolute;
     bottom: 0;
     height: 5vh;
@@ -118,7 +118,7 @@ p{
 
 }
 .clockSection{
-    display: flex;
+    display: fixed;
     position: absolute;
     right: 0.5vw;
     height: 4vh;
@@ -130,7 +130,7 @@ p{
     border-left: 0.25vh solid rgb(128,128,128);
 }
 .clock{
-    display: flex;
+    display: fixed;
     position: absolute;
     right:0;
     width: 10vw;
