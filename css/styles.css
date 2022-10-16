@@ -1,6 +1,8 @@
 @font-face{
-    font-family: 'win95';
-    src: url(../resource/font/w95fa.woff2) format('woff2');
+    font-family: Win95;
+    src: url("../resource/font/w95fa.woff");
+    src: url("../resource/font/w95fa.otf") format('opentype');
+    src: url("../resource/font/w95fa.woff2") format('woff2');
     
 }
 
@@ -116,7 +118,7 @@ p{
     
 
 }
-.clock{
+.clockSection{
     display: flex;
     flex-direction: row;
     margin: auto;
@@ -128,12 +130,14 @@ p{
     border-right: 0.25vh solid white;
     border-top: 0.25vh solid rgb(128,128,128);
     border-left: 0.25vh solid rgb(128,128,128);
-    
+}
+.clock{
+    display: flex;
+    width: 10vw;
+    font-size: 2.5vh;
+    font-family: Win95;
+
 }
 
-footer {
-    font-size: 10px;
-    margin: auto;
-}
 
 
