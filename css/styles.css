@@ -106,11 +106,10 @@ p{
 
 .taskbar{
     display: flex;
-    position: relative;
+    position: absolute;
+    bottom: 0;
     height: 5vh;
     width: 100vw;
-    margin: auto;
-    margin-bottom: 0;
     align-items: center;
     justify-content: center;
     background-color: rgb(192,192,192);
