@@ -119,9 +119,8 @@ p{
 }
 .clockSection{
     display: flex;
-    flex-direction: row;
-    margin: auto;
-    margin-right: 0.5vw;
+    position: absolute;
+    right: 0.5vw;
     height: 4vh;
     width: 10vw;
     background-color: rgb(192,192,192);
