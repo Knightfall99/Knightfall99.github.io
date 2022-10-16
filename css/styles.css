@@ -102,8 +102,34 @@ p{
     display: none;
 }
 
+.taskbar{
+    display: flex;
+    position: relative;
+    height: 5vh;
+    width: 100vw;
+    margin: auto;
+    margin-bottom: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(192,192,192);
+    border-top: 0.5vh solid white;
+    
 
-
+}
+.clock{
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-right: 0.5vw;
+    height: 4vh;
+    width: 10vw;
+    background-color: rgb(192,192,192);
+    border-bottom: 0.25vh solid white;
+    border-right: 0.25vh solid white;
+    border-top: 0.25vh solid rgb(128,128,128);
+    border-left: 0.25vh solid rgb(128,128,128);
+    
+}
 
 footer {
     font-size: 10px;
