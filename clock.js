@@ -10,14 +10,13 @@ function currentTime() {
     if(hh > 12){
         hh = hh - 12;
         session = "PM";
-     }
-  
+    }
      hh = (hh < 10) ? "0" + hh : hh;
      mm = (mm < 10) ? "0" + mm : mm;
-      
+
      let time = hh + ":" + mm + " "  + session;
-  
-    document.getElementById("clock").innerText = time; 
+    document.getElementById("clock").innerText = time;
+     
     let t = setTimeout(function(){ currentTime() }, 1000);
   }
   currentTime();
